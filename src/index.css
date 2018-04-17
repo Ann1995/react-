@@ -1,0 +1,88 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html,
+    body,
+    .app {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .popup {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .popup_inner {
+        padding: 40px;
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        top: 5%;
+        overflow-y: scroll;
+        bottom: 5%;
+        margin: auto;
+        background: white;
+    }
+    
+    .btn_main {
+        float: right;
+        margin: 50px 50px 0px 0px;
+        font-family: sans-serif;
+    }
+    
+    .right_position {
+        float: right;
+    }
+    
+    .item {
+        box-shadow: 2px -4px 12px #eae3e3;
+        /* height: 50px; */
+    }
+    
+    .close {
+        text-align: right;
+        color: red;
+        margin: 10px;
+    }
+    
+    .close:hover {
+        cursor: pointer;
+    }
+    
+    .card_main button:focus {
+        outline: none;
+    }
+    
+    .allwidth {
+        width: 100%;
+    }
+    
+    .closemodal {
+        float: right
+    }
+    
+    .empty_erro {
+        text-align: center;
+        padding: 25px;
+        width: 100%;
+        font-size: 25px;
+    }
